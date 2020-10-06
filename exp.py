@@ -18,8 +18,6 @@ def get_piano_notes():
     return note_freqs
     
 def get_wave(freq, duration=0.5):
-    global wave_delta_arcsin
-    #length = int(duration * samplerate)
     amplitude = 4096
     t = np.linspace(0, duration, int(samplerate * duration))
     wave = amplitude * np.sin(2 * np.pi * freq * t)
