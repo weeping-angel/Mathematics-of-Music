@@ -49,7 +49,7 @@ def main():
     music_notes = 'C-C-G-G-A-A-G--F-F-E-E-D-D-C--G-G-F-F-E-E-D--G-G-F-F-E-E-D--C-C-G-G-A-A-G--F-F-E-E-D-D-C'
     data = get_song_data(music_notes)
     data = data * (16300/np.max(data))
-    write('exp.wav', samplerate, data.astype(np.int16))
+    write('twinkle-twinkle.wav', samplerate, data.astype(np.int16))
     
     #Playing chords
     chords = 'EgB-DfA-AcE-BDf-gAcE-fAc'
