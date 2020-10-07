@@ -1,5 +1,7 @@
 # Mathematics-of-Music
 
+Full explaination of the code is at [TowardsDataScience - Medium](https://towardsdatascience.com/mathematics-of-music-in-python-b7d838c84f72)
+
 ## Usage
 1. Create a virtual environment
 
